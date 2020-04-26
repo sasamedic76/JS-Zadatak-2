@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 2</title>
+</head>
+<body>
+    
+    <script>
 
+var x = prompt("Unesite broj A:");  
+var znak = prompt("Unesite znak *, /, +, -,")
+
+switch (znak) {
+    case "*" :
+var y = prompt("Unesite broj B");
+    var sum = parseInt(x) * parseInt(y);
+    break;
+
+    case "/" :
+var y = prompt("Unesite broj B");
+    var sum = parseInt(x) / parseInt(y);
+    break;
+
+    case "+" :
+var y = prompt("Unesite broj B");
+    var sum = parseInt(x) + parseInt(y);
+    break;
+
+    case "-" :
+var y = prompt("Unesite broj B");
+    var sum = parseInt(x) - parseInt(y);
+    break;
+
+    default: 
+    ("nepoznat znak");
+
+}
+
+alert(sum);
+
+    </script>
+</body>
+</html>
